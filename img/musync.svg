@@ -1,0 +1,25 @@
+<svg width="120" height="40" viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Guitar tilted at -45 degrees -->
+  <g transform="translate(10,25) rotate(-45)">
+    <!-- Guitar body -->
+    <ellipse cx="0" cy="0" rx="5" ry="7" fill="black"/>
+    <ellipse cx="5" cy="0" rx="4" ry="6" fill="black"/>
+
+    <!-- Sound hole -->
+    <circle cx="2.5" cy="0" r="1.2" fill="white"/>
+
+    <!-- Neck -->
+    <rect x="9" y="-1.5" width="12" height="3" rx="1" fill="black"/>
+
+    <!-- Head -->
+    <rect x="21" y="-2.5" width="2.5" height="6" fill="black"/>
+
+    <!-- Strings -->
+    <line x1="2.5" y1="0" x2="22" y2="0" stroke="white" stroke-width="0.4"/>
+    <line x1="2.5" y1="-1" x2="22" y2="-1" stroke="white" stroke-width="0.2"/>
+    <line x1="2.5" y1="1" x2="22" y2="1" stroke="white" stroke-width="0.2"/>
+  </g>
+
+  <!-- Text Musync beside the guitar -->
+  <text x="40" y="26" font-family="Arial, sans-serif" font-size="12" fill="black">Musync</text>
+</svg>
